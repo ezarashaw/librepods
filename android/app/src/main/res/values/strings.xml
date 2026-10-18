@@ -175,6 +175,7 @@
     <string name="error_converting_hex">Error converting hex:</string>
     <string name="found_offset_restart_bluetooth">Please restart the Bluetooth process</string>
     <string name="digital_assistant">Digital Assistant</string>
+    <string name="assistant_launch_failed">Could not open the digital assistant.</string>
     <string name="on">On</string>
     <string name="camera_remote">Camera Remote</string>
     <string name="camera_control">Camera Control</string>

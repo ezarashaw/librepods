@@ -42,6 +42,12 @@
 <!--        android:maxSdkVersion="30" />-->
     <uses-permission android:name="com.android.vending.BILLING" />
 
+    <queries>
+        <intent>
+            <action android:name="android.service.voice.VoiceInteractionService" />
+        </intent>
+    </queries>
+
     <application
         android:name=".LibrePodsApplication"
         android:allowBackup="true"
@@ -96,6 +102,13 @@
                     android:host="add-magic-keys" />
             </intent-filter> -->
         </activity>
+
+        <activity
+            android:name=".AssistantLauncherActivity"
+            android:exported="false"
+            android:excludeFromRecents="true"
+            android:taskAffinity=""
+            android:theme="@style/Theme.AssistantLauncher" />
 
         <activity
             android:name=".QuickSettingsDialogActivity"
